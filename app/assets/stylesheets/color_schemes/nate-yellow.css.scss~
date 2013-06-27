@@ -6,7 +6,7 @@ $text-color: #151515;
 
 $logo: #2b3634;
 
-$theme: #999;
+$theme: #bdcbd3;
 $theme-light: lighten($theme, 14%);
 
 $selection-bg: $theme;
