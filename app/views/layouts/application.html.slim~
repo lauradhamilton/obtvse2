@@ -16,7 +16,7 @@ html lang="en-US"
       = render partial: 'shared/edit_button', locals: { icon: 'edit' }
       - unless @no_header
         header.clearfix
-          = 
+          = link_to 'Home', root_path, id: 'home-link'
           #header-content
             h1= link_to INFO['name'], root_path
             p= INFO['about'].html_safe
