@@ -1,6 +1,6 @@
 My Website
 ================
-You can see obtvse2 in action on my **[Chicago Technology and Analytics Blog](www.lauradhamilton.com)**
+You can see obtvse2 in action on my [Chicago Technology and Analytics Blog](http://www.lauradhamilton.com)
 
 
 Obtvse 2
