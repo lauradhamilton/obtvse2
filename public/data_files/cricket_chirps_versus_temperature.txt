@@ -1,4 +1,3 @@
-Temperature,Chirps
 88.6,20
 71.6,16
 93.3,19.8
