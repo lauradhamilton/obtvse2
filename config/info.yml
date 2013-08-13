@@ -4,6 +4,7 @@ name:    <%= env :name,    'Laura Diane Hamilton' %>
 twitter: <%= env :twitter, 'lauradhamilton' %>
 linkedin: <%= env :linkedin, 'lauradhamilton' %>
 github:  <%= env :github,  'lauradhamilton'  %>
+googleplus: <%= env :googleplus, '110556329633561103408' %>
 email:   <%= env :email,   'lauradhamilton@gmail.com'  %>
 about:   <%= env :about,   'Vice President of Analytics at BayRu, LLC' %>
 

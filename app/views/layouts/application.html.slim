@@ -31,6 +31,8 @@ html lang="en-US"
                 li= link_to 'linkedin', "https://linkedin.com/in/#{INFO['linkedin']}", class: 'icon-linkedin', id: 'connect-linkedin'
               - if INFO['github']
                 li= link_to 'github', "https://github.com/#{INFO['github']}", class: 'icon-github', id: 'connect-github'
+              - if INFO['googleplus']
+                li= link_to 'googleplus', "https://plus.google.com/#{INFO['googleplus']}", class: 'icon-google-plus-sign', id: 'connect-googleplus', rel: 'author'
               - if INFO['email']
                 li.right= link_to 'email', "mailto:#{INFO['email']}", class: 'icon-envelope', id: 'connect-email'
               li.right= link_to 'rss', rss_path, class: 'open-external icon-rss', id: 'connect-rss'
