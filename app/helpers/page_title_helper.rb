@@ -1,7 +1,7 @@
 module PageTitleHelper
   def html_title(content)
     if content.present?
-      [content,INFO['name']].html_safe.join(' - ')
+      [content,INFO['name']].join(' - ')
     else
       INFO['name']
     end
