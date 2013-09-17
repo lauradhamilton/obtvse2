@@ -4,8 +4,11 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: postgresql
+  database: obtvse2
+  host: localhost
+  username: obtvse2_app
+  password: 3i32Y1m383t7Bd63YKW32C94dvuY7L
   pool: 5
   timeout: 5000
 
