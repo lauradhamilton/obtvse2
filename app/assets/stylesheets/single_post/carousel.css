@@ -137,7 +137,7 @@ a:hover, a:focus {
 }
 
 .bullet {
-	background: url(../images/page-off.png) center center no-repeat;
+	background: url(../carousel/page-off.png) center center no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
