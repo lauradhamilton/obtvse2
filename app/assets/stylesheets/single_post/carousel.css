@@ -1,60 +1,42 @@
+#content h1 {
+	margin-top: 0px;
+}
+
 -carousel {
-	height: 100px;
+	height: 300px;
 	margin: 0;
 	overflow: auto;
 	padding: 0;
 	position: relative; /*for ie7 to work e.g in html carousels*/
-	width: 300px;
+	width: 450px;
 }
 
 .ui-carousel > .wrapper {
     margin: 0;
     padding: 0;
-    width: 700px;
+    width: 600px;
 }
 
 .ui-carousel > .wrapper > * {
 	border: 0;
 	display: block;
 	float: left;
-	height: 100px;
+	height: 200px;
 	overflow: hidden;
-	width: 100px;	
-}
-
-body {
-	font: 16px/1.5 sans-serif;
-
+	width: 450px;	
 }
 
 #content {
 	margin: 20px;
 }
 
-h1 {
-	font-size: 2em;
-	margin-bottom: 30px;
-}
-
-a:link, a:visited, a:hover, a:active {
-	color: #fff;
-}
-
-a:hover, a:focus {
-	outline:1px solid white;
-}
-
-#content a:link, #content a:visited, #content a:active {
-	color: #ff5c43;
-}
-
-#content a:focus {
-	color: #e25741;
-	outline:1px solid #e25741;
+#content article p:first-child {
+        font-size: 20px;
 }
 
 #container {
-	width: 700px;
+        height: 550px;
+	width: 500px;
 	position: relative;
 	margin-left: 0 auto;
 }
@@ -64,17 +46,13 @@ a:hover, a:focus {
 	bottom:0px;
 	left:0px;
 	width:100%;
-	background-color: #FF5C43;
-	color: #fff;
 	text-align: center;
 	padding: 10px 0;
 	margin-top: 10px;
-	font-size: .9em;
-	font-family: Ubuntu, sans-serif;
 }
 
 #carousel {
-	width: 500px;
+	width: 400px;
 	margin: 0 auto;
 }
 
@@ -108,26 +86,21 @@ a:hover, a:focus {
 }
 
 .slide  h1 {
-	font: 72px/1 Anton, sans-serif;
 	color: #ff5c43;
 	margin: 0;
 	padding: 0;
 }
 
 .slide p {
-	font: 26px/1 Ubuntu, sans-serif;	
-	color: #4d4d4d;
 	margin: 0;
 	padding: 0;
 	line-height: 1.2;
 }
 
 .slide p.cite {
-	font: 32px/1 Anton, sans-serif;	
-	color: #ff5c43;
 	margin: 15px 0 0 0;
 	padding: 0;
-	text-align: left;
+	text-align: right;
 }
 
 #pages {
