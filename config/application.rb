@@ -24,6 +24,7 @@ module Obtvse
 
     # Precompile admin assets
     config.assets.precompile += ['admin.js']
+    config.assets.precompile << '*.js'
 
     # Activate observers that should always be running.
     # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
