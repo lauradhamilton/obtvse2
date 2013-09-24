@@ -54,4 +54,4 @@ group :assets do
 end
 
 # Error reporting
-gem 'newrelic_rpm'
+#gem 'newrelic_rpm'
