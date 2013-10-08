@@ -53,5 +53,8 @@ group :assets do
   gem 'uglifier', '~> 1'
 end
 
-# Error reporting
-#gem 'newrelic_rpm'
+# Generate a sitemap
+gem 'sitemap_generator', github: 'kjvarga/sitemap_generator'
+
+
+
