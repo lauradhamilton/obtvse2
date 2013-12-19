@@ -1,16 +1,21 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
-gem 'rails', '~> 3.2'
+gem 'rails', '~> 4.0'
+gem 'activerecord-session_store'
+
+# Server heroku assets in production
+gem 'rails_12factor', group: :production
 
 # Auth/users
-gem 'sorcery', '0.7'
+gem 'sorcery'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Frontend Utilities
 gem 'slim', '~> 1.2'
 gem 'turbolinks', '~> 1.0'
 gem 'jquery-rails', '~> 2'
-gem 'compass-rails'
+gem 'compass-rails', '~> 1.1'
 
 # Markdown
 gem 'kramdown', '~> 1.0', require: false
@@ -48,9 +53,9 @@ group :development, :test do
 end
 
 group :assets do
-  gem 'sass-rails', '~> 3'
-  gem 'coffee-rails', '~> 3'
-  gem 'uglifier', '~> 1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 # Generate a sitemap
