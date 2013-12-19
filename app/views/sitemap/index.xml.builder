@@ -9,12 +9,6 @@ xml.urlset(
       xml.changefreq("monthly")
     end
   end
-  @users.each do |user|
-    xml.url do
-      xml.loc "#{user_url(user)}"
-      xml.changefreq("monthly")
-    end
-  end
   @posts.each do |post|
     xml.url do
       xml.loc "#{post_url(post)}"
