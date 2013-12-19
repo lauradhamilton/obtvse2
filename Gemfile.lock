@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/kjvarga/sitemap_generator.git
-  revision: 676a58932ac7203fc190cb78994b49497ecf30ac
-  specs:
-    sitemap_generator (4.2.0)
-      builder
-
-GIT
   remote: git://github.com/rsl/stringex.git
   revision: 689b66d9dd24b75e93d7c7e7be5ac76baa2fc754
   specs:
@@ -252,7 +245,6 @@ DEPENDENCIES
   rails_12factor
   rb-fsevent
   sass-rails
-  sitemap_generator!
   slim (~> 1.2)
   sorcery
   sqlite3 (~> 1)

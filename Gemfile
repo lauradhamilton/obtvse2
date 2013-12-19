@@ -57,9 +57,3 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
 end
-
-# Generate a sitemap
-gem 'sitemap_generator', github: 'kjvarga/sitemap_generator'
-
-
-
