@@ -6,7 +6,7 @@ linkedin: <%= env :linkedin, 'lauradhamilton' %>
 github:  <%= env :github,  'lauradhamilton'  %>
 googleplus: <%= env :googleplus, '110556329633561103408' %>
 email:   <%= env :email,   'lauradhamilton@gmail.com'  %>
-about:   <%= env :about,   'CEO and Founder of <a href="http://www.additiveanalytics.com">Additive Analytics</a>' %>
+about:   <%= env :about,   'CEO and Founder of <a href="http://www.additiveanalytics.com">Additive Analytics</a><br><br><a href="/lauradhamilton_resume.pdf">Resumé</a>' %>
 
 # Google Analytics
 ga_id:   <%= env :ga, 'UA-38928252-1'  %>
