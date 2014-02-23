@@ -59,6 +59,12 @@ h3 {
   color: rgba(0,0,0,0.8);
 }
 
+disclaimer {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.4em;
+}
+
 /*
   Place things inside #body to not affect the admin
 */
@@ -355,3 +361,4 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
     display: none;
   }
 }
+
