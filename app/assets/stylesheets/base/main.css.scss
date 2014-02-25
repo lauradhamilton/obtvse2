@@ -49,8 +49,18 @@ li {
 a,
 a:visited
 a:active {
-  color: $theme;
+  color: $theme-lighter;
   text-decoration: none;
+  border-bottom: 2px solid $underline-color;
+  @include transition(all .1s linear);
+}
+
+header a,
+header a:visited
+header a:active {
+  color: $theme-lighter;
+  text-decoration: none;
+  border-bottom: none;
   @include transition(all .1s linear);
 }
 

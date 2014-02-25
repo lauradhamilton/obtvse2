@@ -2,7 +2,6 @@
 
 #content {
   clear: both;
-  color: #666666;
 
   article {
     padding: 0;
@@ -17,7 +16,7 @@
   time {
     margin: 0;
     padding: 0;
-    color: #777;
+    color: $theme-light;
     display: block;
   }
 
@@ -37,6 +36,7 @@
 
     a {
       border: none;
+      border-bottom-color: none;
     }
   }
 
