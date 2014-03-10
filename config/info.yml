@@ -1,5 +1,7 @@
 <% def env(a, b); e = ENV["obtvse_#{a}"]; e ? e : b; end %>
 
+title: <%= env :title,    'Laura Diane Hamilton' %>
+domain: <%= env :domain,    'http://www.lauradhamilton.com' %>
 name:    <%= env :name,    'Laura Diane Hamilton' %>
 twitter: <%= env :twitter, 'lauradhamilton' %>
 linkedin: <%= env :linkedin, 'lauradhamilton' %>
