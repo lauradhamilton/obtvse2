@@ -1,32 +1,37 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.0'
 
 gem 'rails', '~> 4.0'
 gem 'activerecord-session_store'
+
+# Bug in sprockets; forcing it to use 2.11.0
+# https://github.com/sstephenson/sprockets/issues/540
+# Please FIXME when bug is fixed
+gem 'sprockets', '2.11.0'
 
 # Server heroku assets in production
 gem 'rails_12factor', group: :production
 
 # Auth/users
 gem 'sorcery'
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.1'
 
 # Frontend Utilities
-gem 'slim', '~> 1.2'
-gem 'turbolinks', '~> 1.0'
-gem 'jquery-rails', '~> 2'
+gem 'slim'
+gem 'turbolinks', '~> 2.2'
+gem 'jquery-rails', '~> 3.1'
 gem 'compass-rails', '~> 1.1'
 
 # Markdown
-gem 'kramdown', '~> 1.0', require: false
-gem 'coderay', '~> 1.0'
+gem 'kramdown', '~> 1.3', require: false
+gem 'coderay', '~> 1.1'
 
 # Pagination
-gem 'kaminari', '~> 0.14'
+gem 'kaminari', '~> 0.15'
 
 # Date/URL Utilities
-gem 'chronic', '~> 0.8'
-gem 'stringex', '~> 2', github: 'rsl/stringex'
+gem 'chronic', '~> 0.10'
+gem 'stringex'
 
 platform :jruby do
   gem 'trinidad'
@@ -34,18 +39,17 @@ platform :jruby do
 end
 
 platform :ruby do
-  gem 'pg', '~> 0.14'
+  gem 'pg', '~> 0.17'
   gem 'unicorn'
 end
 
 group :production do
-  gem 'aws-sdk', '~> 1.3.4'
+  gem 'aws-sdk', '~> 1.38'
 end
 
 group :development, :test do
   gem 'sqlite3', '~> 1', platform: [:ruby, :mswin, :mingw]
   gem 'capistrano'
-  gem 'capistrano_colors'
   gem 'quiet_assets'
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
