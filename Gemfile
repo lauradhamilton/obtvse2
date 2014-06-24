@@ -57,3 +57,6 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
 end
+
+# Backups to Amazon S3
+gem "pgbackups-archive"
